@@ -1,0 +1,12 @@
+[package]
+name = "wservice"
+version = "0.1.0"
+authors = ["s3k <s3ek.mail@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+yew = "0.6"
+stdweb = "0.4"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
